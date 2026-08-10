@@ -29,7 +29,10 @@ export function AuthProvider({ children }) {
   }
 
   async function signInWithGitHub() {
-    return supabase.auth.signInWithOAuth({ provider: 'github' })
+    return supabase.auth.signInWithOAuth({
+      provider: 'github',
+      options: { redirectTo: window.location.origin + '/account' },
+    })
   }
 
   async function signOut() {
