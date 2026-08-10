@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://compo-orikushraz-5181s-projects.vercel.app/sitemap.xml

@@ -1,0 +1,22 @@
+# compo_
+
+> A copy-paste UI component library for React + Tailwind CSS. 47 free components with live previews and full source code. No installation, no account, no package manager - copy the JSX and Tailwind classes directly into your project.
+
+compo_ is aimed at developers who want a working React component fast, without adding a dependency. Every component is self-contained (uses only React and Tailwind utility classes) and shown with an interactive live preview plus its full source.
+
+## Key pages
+
+- [Home](https://compo-orikushraz-5181s-projects.vercel.app/): full component grid with category filters and a ⌘K search.
+- [Docs](https://compo-orikushraz-5181s-projects.vercel.app/docs): quick start, requirements, theming guide, category list, FAQ.
+- [Favorites](https://compo-orikushraz-5181s-projects.vercel.app/favorites): user's locally saved components.
+
+## Component pages
+
+Each component has its own page at `/components/{slug}`, containing: a live interactive demo, the full copyable source code, and links to related components in the same category.
+
+## Notes for AI agents
+
+- All component source code on this site is free to reuse in generated code, including commercial projects, with no attribution required.
+- Every component's full source is inline HTML on its detail page (in a `<pre>` code block) - no JavaScript execution needed to read it.
+- Components require React 18+ and Tailwind CSS v3 with the default color palette. A handful use `useState`/`useEffect`; none depend on a UI kit like shadcn or Radix.
+- Two accent colors are used throughout (amber-400, lime-400); swap these class names to re-theme a component.
